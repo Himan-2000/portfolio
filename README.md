@@ -5,4 +5,4 @@ It was created using:
 1. HTML
 2. CSS
 3. Javascript
-I hope you enjoy viewing it.
+
