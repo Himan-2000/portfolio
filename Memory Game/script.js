@@ -37,14 +37,9 @@ function isMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
-
   points+=4;
-  finalScore.innerHTML=finalPoint;
+  finalPoint=points;
   score.innerHTML=points;
-
-  if(win==12){
-    won.style.visibility="visible";
-  }
   resetBoard();
 }
 
